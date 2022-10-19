@@ -1,0 +1,101 @@
+.fondoPiedraPapelscissors{
+    background-color: rgba(0, 12, 63, 0.753);
+    width: 100%;
+    z-index: 5000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.swal2-container{
+    z-index: 1000000;
+  }
+.fondoPiedraPapelscissors h3{
+    text-align: center;
+    position: absolute;
+    color: whitesmoke;
+    top: 5%;
+}
+.fondoPiedraPapelscissors div{
+    margin-top: 5%;
+    width: 50%;
+}
+
+.fondoPiedraPapelscissors div div{
+    width: 100%;
+    padding: 5% 20%;
+}
+.fondoPiedraPapelscissors div div img{
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+    border: 4px solid rosybrown;
+    padding: 5% 10%;
+    
+}
+
+.opciones{
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    padding: 0% !important;
+    margin-bottom: 10%;
+
+}
+.opciones button{
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 5px 20px;
+    background-color: burlywood;
+}
+.opciones button img{
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    
+}
+.jugar{
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    border-radius: 25px;
+    margin: 23% 50% 0% 47%;
+    background-color: burlywood;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width:577px)
+{
+    .fondoPiedraPapelscissors div div img{
+        width: 100%;
+        height: 100px;
+        padding: 5% 1%; 
+        margin-top: 10%;       
+    }
+    .opciones button{
+        width: 100px;
+        height: 80px;
+    }
+    .opciones{
+        margin-top: 20% !important;
+    }
+    .fondoPiedraPapelscissors h3{
+        top: 1%;
+    }
+    .jugar{
+        width: 80px;
+        height: 50px;
+        margin: 40% 50% 0% 47%;
+       
+    }
+    .opciones button img{
+        width: 80% !important;
+        height: 80% !important;
+        border: none !important;
+        
+    }
+}
